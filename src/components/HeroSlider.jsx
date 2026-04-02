@@ -10,6 +10,18 @@ import 'swiper/css/effect-fade';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 
+import redBack from '../assets/red-back.jpg';
+import redRun from '../assets/red-run.png';
+import redShoe from '../assets/red-banner-shoes.png';
+
+import yellowBack from '../assets/yellow-back.jpg';
+import yellowRun from '../assets/yellow-run.png';
+import yellowShoe from '../assets/yellow-banner-shoes.png';
+
+import blueBack from '../assets/blue-back.jpg';
+import blueRun from '../assets/blue-run.png';
+import blueShoe from '../assets/blue-banner-shoes.png';
+
 const sliderData = [
     {
         id: 1,
@@ -18,9 +30,9 @@ const sliderData = [
         subtitle: 'Our Exclusive',
         description: 'We have all your auto parts needs! Are you looking for the best performance car parts and car accessories',
         price: '$34',
-        bgImg: '/src/assets/red-back.jpg',
-        runImg: '/src/assets/red-run.png',
-        shoeImg: '/src/assets/red-banner-shoes.png',
+        bgImg: redBack,
+        runImg: redRun,
+        shoeImg: redShoe,
         btnColor: 'bg-black hover:bg-red-600',
         titleColor: 'text-black',
         subtitleColor: 'text-red-600',
@@ -33,9 +45,9 @@ const sliderData = [
         subtitle: 'Our Exclusive',
         description: 'We have all your auto parts needs! Are you looking for the best performance car parts and car accessories',
         price: '$32',
-        bgImg: '/src/assets/yellow-back.jpg',
-        runImg: '/src/assets/yellow-run.png',
-        shoeImg: '/src/assets/yellow-banner-shoes.png',
+        bgImg: yellowBack,
+        runImg: yellowRun,
+        shoeImg: yellowShoe,
         btnColor: 'bg-black hover:bg-yellow-500',
         titleColor: 'text-black',
         subtitleColor: 'text-yellow-500',
@@ -48,9 +60,9 @@ const sliderData = [
         subtitle: 'Our Exclusive',
         description: 'We have all your auto parts needs! Are you looking for the best performance car parts and car accessories',
         price: '$34',
-        bgImg: '/src/assets/blue-back.jpg',
-        runImg: '/src/assets/blue-run.png',
-        shoeImg: '/src/assets/blue-banner-shoes.png',
+        bgImg: blueBack,
+        runImg: blueRun,
+        shoeImg: blueShoe,
         btnColor: 'bg-black hover:bg-blue-500',
         titleColor: 'text-black',
         subtitleColor: 'text-blue-500',
