@@ -1,0 +1,756 @@
+[
+    {
+        "id": 1,
+        "name": "Nike Air Max 270",
+        "brand": "Nike",
+        "price": 150,
+        "category": "Running",
+        "stock": 12,
+        "rating": 4.8,
+        "isNew": false,
+        "isFeatured": true,
+        "onSale": false,
+        "color": "White/Black",
+        "images": [
+            "https://i.ibb.co.com/FjKq9zq/0a4cd1da-8c46-4dbb-8a4e-a5d1c311dc2a.png",
+            "https://i.ibb.co.com/gMHNW6d4/9e47406f-4a05-4b0d-a293-4fc3ac63f146.png",
+            "https://i.ibb.co.com/gM3rqmtF/9fcc16ff-5a92-4aec-9f46-472ece9bc9ed.png",
+            "https://i.ibb.co.com/Gvf7FBJ8/18f43afa-2e16-45a1-955f-7798cecf66a3.png",
+            "https://i.ibb.co.com/nqrSrcRW/76ee23a0-422a-42ee-8136-b62ac7a6b343.png"
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Adidas Ultraboost 22",
+        "brand": "Adidas",
+        "price": 140,
+        "oldPrice": 190,
+        "category": "Running",
+        "stock": 5,
+        "rating": 4.9,
+        "isNew": false,
+        "isFeatured": false,
+        "onSale": true,
+        "color": "Core Black",
+        "images": [
+            "https://i.ibb.co.com/0VMRtBHt/038ef4b1-f6b9-4f7a-8504-ce2828d536cc.jpg",
+            "https://i.ibb.co.com/7xxdKx6K/1668c395-2a3f-4fdb-853a-59f22e95959d.jpg",
+            "https://i.ibb.co.com/3mFtHwLK/a69ca340-dc7b-48f7-899f-ca1d3e694415.jpg",
+            "https://i.ibb.co.com/N2mzbNxn/b2cf591a-59cd-4de0-8e3e-1e5e947a8a57.jpg",
+            "https://i.ibb.co.com/JRH6jpdK/main-square-84be0aab-d62c-48d2-803a-33adaa7c7f80.webp"
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Jordan 1 Retro High",
+        "brand": "Jordan",
+        "price": 170,
+        "category": "Casual",
+        "stock": 3,
+        "rating": 5.0,
+        "isNew": true,
+        "isFeatured": true,
+        "onSale": false,
+        "color": "Chicago Red",
+        "images": [
+            "https://i.ibb.co.com/KpDBfFYy/6ae74989-5006-45bf-84fa-aeda0c8bd5b5.jpg",
+            "https://i.ibb.co.com/CFDNjWw/9b5b2bc7-8a86-4762-b043-cd5f16a9f6d2.jpg",
+            "https://i.ibb.co.com/2YK0gPZG/7935b563-4eb6-45f1-b837-34765ab0043f.jpg",
+            "https://i.ibb.co.com/tPFGRBgR/bf122497-c909-40a8-8ace-0940f33e48c9.jpg"
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Puma Velocity Nitro",
+        "brand": "Puma",
+        "price": 120,
+        "category": "Running",
+        "stock": 20,
+        "rating": 4.5,
+        "isNew": false,
+        "isFeatured": false,
+        "onSale": false,
+        "color": "Yellow Alert",
+        "images": [
+            "https://i.ibb.co.com/Gf0GBJms/3fc70b91-7ad1-46c7-b754-209e53a90b08.jpg",
+            "https://i.ibb.co.com/F4R34qpP/50f7662f-1aa2-4eaf-8b12-03107bb98d7a.jpg",
+            "https://i.ibb.co.com/35Dvb2jD/0371ca82-bea8-4561-9030-6232b0978797.jpg",
+            "https://i.ibb.co.com/4n91YzKW/8378d0d4-5697-4720-b24b-b8ddd0be0311.jpg"
+        ]
+    },
+    {
+        "id": 5,
+        "name": "New Balance 990v5",
+        "brand": "New Balance",
+        "price": 185,
+        "category": "Casual",
+        "stock": 8,
+        "rating": 4.7,
+        "isNew": false,
+        "isFeatured": false,
+        "onSale": false,
+        "color": "Grey",
+        "images": [
+            "https://i.ibb.co.com/XZQJhD7N/4c261c95-12bf-480f-80fa-bb8b88b598d3.webp",
+            "https://i.ibb.co.com/bjpxM1Wv/a2f461a3-9a4f-49e2-ac80-f03387601dda.webp",
+            "https://i.ibb.co.com/gbJQQ8cy/b0a9af66-c3e6-444c-84f2-fb3a059c3830.webp",
+            "https://i.ibb.co.com/G4S0FnP4/d8cbbbc5-fc4e-4b18-a076-e52e3b2cd723.webp",
+            "https://i.ibb.co.com/39zTPGM3/fa66a0a4-6100-4a16-9ed3-50db14b7435c.webp"
+        ]
+    },
+    {
+        "id": 6,
+        "name": "Vans Old Skool",
+        "brand": "Vans",
+        "price": 55,
+        "oldPrice": 65,
+        "category": "Skate",
+        "stock": 50,
+        "rating": 4.6,
+        "isNew": false,
+        "isFeatured": false,
+        "onSale": true,
+        "color": "Black/White",
+        "images": [
+            "https://i.ibb.co.com/hx7XbpCB/0c93e245-f106-4cea-86b1-af1f927228c0.png",
+            "https://i.ibb.co.com/RkMgWQbf/467ff2ae-5d50-4e17-9a7d-694f5b34fe3d.png",
+            "https://i.ibb.co.com/fGPrPm4T/db3de4a1-a924-4f7d-bcb3-d8ca9dd241aa.jpg",
+            "https://i.ibb.co.com/jvnjrYz5/e8842277-9dda-486e-be8f-fdd3b74e2655.jpg"
+        ]
+    },
+    {
+        "id": 7,
+        "name": "Converse Chuck 70",
+        "brand": "Converse",
+        "price": 85,
+        "category": "Casual",
+        "stock": 15,
+        "rating": 4.8,
+        "isNew": true,
+        "isFeatured": false,
+        "onSale": false,
+        "color": "Parchment",
+        "images": [
+            "https://i.ibb.co.com/p6bJHM28/2dcdced7-02b9-4332-a61f-8d3e8c1cac5e.jpg",
+            "https://i.ibb.co.com/mrGXnC7d/942808de-b214-4748-b54e-18a3c5eb77fb.webp",
+            "https://i.ibb.co.com/Q3BzRjt8/a7740cd4-0345-458a-904d-0de5227b9430.jpg",
+            "https://i.ibb.co.com/HTdByvMT/d555fb1c-4f56-4d3b-b82c-af1e66a1f9bc.webp"
+        ]
+    },
+    {
+        "id": 8,
+        "name": "Reebok Nano X2",
+        "brand": "Reebok",
+        "price": 110,
+        "oldPrice": 135,
+        "category": "Training",
+        "stock": 10,
+        "rating": 4.4,
+        "isNew": false,
+        "isFeatured": false,
+        "onSale": true,
+        "color": "Blue/Gray",
+        "images": [
+            "https://i.ibb.co.com/B2krmwgs/9f7e656f-1bf0-42f3-97c5-c6ab955d79c2.jpg",
+            "https://i.ibb.co.com/7dTRBdn4/62028bb1-fe6c-4692-acbd-db1f5314b391.jpg",
+            "https://i.ibb.co.com/jkf664wR/a3385b9c-02e5-4c16-8e2a-05cc50f1aa55.jpg",
+            "https://i.ibb.co.com/LdHJVKq7/a5031f00-2434-4f36-81c6-02fec565a146.jpg"
+        ]
+    },
+    {
+        "id": 9,
+        "name": "Asics Gel-Kayano 28",
+        "brand": "Asics",
+        "price": 160,
+        "category": "Running",
+        "stock": 14,
+        "rating": 4.6,
+        "isNew": false,
+        "isFeatured": false,
+        "onSale": false,
+        "color": "Electric Blue",
+        "images": [
+            "https://i.ibb.co.com/CpmnWVmg/8dac274d-9ef6-456e-abd6-f4c9c56c41c7.jpg",
+            "https://i.ibb.co.com/MDg7DxL4/842bb311-c52a-4a86-95cc-07db4db38132.webp",
+            "https://i.ibb.co.com/wZr1V91d/b310ec86-4126-43cf-8221-96765f4e919b.webp",
+            "https://i.ibb.co.com/JwqgqTh2/f664b826-a802-4add-bb57-ce3ef9ec4e11.webp"
+        ]
+    },
+    {
+        "id": 10,
+        "name": "UA Curry 9",
+        "brand": "Under Armour",
+        "price": 160,
+        "category": "Basketball",
+        "stock": 7,
+        "rating": 4.9,
+        "isNew": true,
+        "isFeatured": true,
+        "onSale": false,
+        "color": "Golden State",
+        "images": [
+            "https://i.ibb.co.com/rKFN7QhG/2cbdcebe-541a-4394-a7e4-7776ebbc8745.webp",
+            "https://i.ibb.co.com/JFG6djK0/11defc69-811e-41b7-b334-2b5a551a3ea5.webp",
+            "https://i.ibb.co.com/tw9kFKKH/26709d64-445f-42a6-824e-2907ec7a5f6a.webp",
+            "https://i.ibb.co.com/KcCCmtYH/cd2e3dbf-d5ed-4f4f-b98f-19989715bdbd.webp"
+        ]
+    },
+    {
+        "id": 11,
+        "name": "Nike Pegasus 39",
+        "brand": "Nike",
+        "price": 100,
+        "oldPrice": 130,
+        "category": "Running",
+        "stock": 25,
+        "rating": 4.5,
+        "isNew": false,
+        "isFeatured": false,
+        "onSale": true,
+        "color": "Green/Black",
+        "images": [
+            "https://i.ibb.co.com/Q3Cmr2Kb/57e55d87-d3df-4818-9574-246d7c79e74c.jpg",
+            "https://i.ibb.co.com/zTMLPMMP/9671d53c-8249-40c2-8c32-e8ec6c7c9c6c.jpg",
+            "https://i.ibb.co.com/TxW4JYx7/12692f5a-52e3-4238-b165-ddd16c47f53d.jpg",
+            "https://i.ibb.co.com/jF9gjYY/19271400-f9f4-4d56-a89c-cb1993670db3.jpg"
+        ]
+    },
+    {
+        "id": 12,
+        "name": "Adidas NMD R1",
+        "brand": "Adidas",
+        "price": 150,
+        "category": "Casual",
+        "stock": 18,
+        "rating": 4.7,
+        "isNew": false,
+        "isFeatured": false,
+        "onSale": false,
+        "color": "Cloud White",
+        "images": [
+            "https://i.ibb.co.com/bRDRfmbR/adidas-NMD-R1-upper.jpg",
+            "https://i.ibb.co.com/23kdQw93/https-hypebeast-com-image-2020-05-adidas-nmd-r1-core-black-footwear-white-release-1.avif",
+            "https://i.ibb.co.com/Mmz5L00/nmd-r1-core-black-core-black-60b5c90b29a95.jpg",
+            "https://i.ibb.co.com/jF98V5F/s-l1200.jpg"
+        ]
+    },
+    {
+        "id": 13,
+        "name": "Yeezy Boost 350",
+        "brand": "Adidas",
+        "price": 230,
+        "category": "Casual",
+        "stock": 2,
+        "rating": 4.8,
+        "isNew": false,
+        "isFeatured": true,
+        "onSale": false,
+        "color": "Zebra",
+        "images": [
+            "https://i.ibb.co.com/wN7sn5x7/6d42bfca-757b-416a-8a26-ddcdec12b8a6.jpg",
+            "https://i.ibb.co.com/bR8Q3L89/4711aa02-3c82-4bd8-847a-5ba87c393d0f.jpg",
+            "https://i.ibb.co.com/93svd7h3/d894dba6-3ca4-4b51-bd7b-8753c24f821f.jpg",
+            "https://i.ibb.co.com/8D09ff5M/fba515c7-5242-4e6e-8d76-2c981cd129d7.jpg"
+        ]
+    },
+    {
+        "id": 14,
+        "name": "Jordan 4 Military Black",
+        "brand": "Jordan",
+        "price": 210,
+        "category": "Casual",
+        "stock": 4,
+        "rating": 4.9,
+        "isNew": true,
+        "isFeatured": true,
+        "onSale": false,
+        "color": "White/Black/Grey",
+        "images": [
+            "https://i.ibb.co.com/BHr4zqs8/0e417fed-3b27-472e-9ae8-6daedc4fde19.jpg",
+            "https://i.ibb.co.com/0yzCRTJs/37fc1fd7-3eb6-4eb8-a1a5-b8fa6490f3cf.webp",
+            "https://i.ibb.co.com/Q3MjGr5b/713d82fb-7cbb-4cf9-b11b-fa9f0b37e84a.webp",
+            "https://i.ibb.co.com/5hP3s5Wz/931ac51d-6f89-4a93-ac1e-449b4d20a189.webp"
+        ]
+    },
+    {
+        "id": 15,
+        "name": "Brooks Ghost 14",
+        "brand": "Brooks",
+        "price": 140,
+        "category": "Running",
+        "stock": 22,
+        "rating": 4.6,
+        "isNew": false,
+        "isFeatured": false,
+        "onSale": false,
+        "color": "Navy Blue",
+        "images": [
+            "https://i.ibb.co.com/4RdNVGwW/6dc3efd2-d813-413d-b401-16fb4f6b37e4.jpg",
+            "https://i.ibb.co.com/wNksH3wm/d740a7e6-1287-4b55-b7a2-79c823086384.jpg",
+            "https://i.ibb.co.com/nNT5Fmd2/dd337649-e2dc-42fb-a908-7652cf56d26c.jpg",
+            "https://i.ibb.co.com/mw970G3/e6a17cf5-5641-4a93-8f5f-088f6b3f5dae.png"
+        ]
+    },
+    {
+        "id": 16,
+        "name": "Saucony Endorphin Speed",
+        "brand": "Saucony",
+        "price": 160,
+        "category": "Running",
+        "stock": 9,
+        "rating": 4.7,
+        "isNew": true,
+        "isFeatured": false,
+        "onSale": false,
+        "color": "ViziPro",
+        "images": [
+            "https://i.ibb.co.com/N231JQ1v/1e90303e-9ebd-4b6d-80d9-f350240351d6.jpg",
+            "https://i.ibb.co.com/Q7XrPvDt/5d52f385-5077-44df-bf18-781c0863b68d.jpg",
+            "https://i.ibb.co.com/RTQ8J53j/9c630d71-1559-467b-b669-2050fd6c6226.jpg",
+            "https://i.ibb.co.com/7LjbwTx/d82ba485-4a81-44bd-ad0d-a69a72343308.jpg"
+        ]
+    },
+    {
+        "id": 17,
+        "name": "Hoka Bondi 7",
+        "brand": "Hoka",
+        "price": 130,
+        "oldPrice": 160,
+        "category": "Running",
+        "stock": 11,
+        "rating": 4.8,
+        "isNew": false,
+        "isFeatured": true,
+        "onSale": true,
+        "color": "Sharkskin",
+        "images": [
+            "https://i.ibb.co.com/NdCs4DJw/3fc513dc-f6ae-4938-a2cc-7896c3bbec0f.webp",
+            "https://i.ibb.co.com/yFNPDm07/4df656d6-86ed-46e5-a9cf-4ca6bb4ab421.webp",
+            "https://i.ibb.co.com/sJD5Rq40/97d50ec9-9fd8-42f1-9168-0e8720124e84.webp",
+            "https://i.ibb.co.com/Q7k8CDhx/b66d5a2b-b520-4fad-8c11-041eaf8b5d73.webp"
+        ]
+    },
+    {
+        "id": 18,
+        "name": "Mizuno Wave Rider 25",
+        "brand": "Mizuno",
+        "price": 135,
+        "category": "Running",
+        "stock": 16,
+        "rating": 4.5,
+        "isNew": false,
+        "isFeatured": false,
+        "onSale": false,
+        "color": "Safety Yellow",
+        "images": [
+            "https://i.ibb.co.com/wN26ZZ8w/3a339ba6-d33c-4149-8d28-7297ad474930.jpg",
+            "https://i.ibb.co.com/LXWBMh3v/397eb873-4932-4dd2-9078-41a072ed37cd.jpg",
+            "https://i.ibb.co.com/fGLY7hGd/913d0203-fe71-43b2-96ca-bcdbb61a44ed.jpg",
+            "https://i.ibb.co.com/Jw0jK9fb/a5554bed-4693-4907-a653-044282c5226c.jpg"
+        ]
+    },
+    {
+        "id": 19,
+        "name": "Skechers Arch Fit",
+        "brand": "Skechers",
+        "price": 85,
+        "category": "Casual",
+        "stock": 40,
+        "rating": 4.4,
+        "isNew": false,
+        "isFeatured": false,
+        "onSale": false,
+        "color": "Charcoal",
+        "images": [
+            "https://i.ibb.co.com/23VZD7c5/85747712-49cd-494a-b9ed-b52e1b0c1884.jpg",
+            "https://i.ibb.co.com/KzVJFmRx/ab45d7a4-7a9a-4f4b-9d78-71842de568c9.jpg",
+            "https://i.ibb.co.com/d08drcRJ/bed86c07-4115-47d8-8502-f4c63ca79bce.jpg",
+            "https://i.ibb.co.com/zh5fdw9B/c0926883-7a16-4a28-a50e-b287333c6de8.jpg"
+        ]
+    },
+    {
+        "id": 20,
+        "name": "Fila Disruptor II",
+        "brand": "Fila",
+        "price": 60,
+        "oldPrice": 75,
+        "category": "Casual",
+        "stock": 28,
+        "rating": 4.2,
+        "isNew": false,
+        "isFeatured": false,
+        "onSale": true,
+        "color": "White",
+        "images": [
+            "https://i.ibb.co.com/h5fh0p2/15f356f9-eb3f-40ce-b53a-17957a0ca80a.jpg",
+            "https://i.ibb.co.com/twZH9BN2/f85419bd-599c-45bd-acaa-6e1045ead796.jpg"
+        ]
+    },
+    {
+        "id": 21,
+        "name": "Nike Dunk Low",
+        "brand": "Nike",
+        "price": 110,
+        "category": "Casual",
+        "stock": 6,
+        "rating": 4.9,
+        "isNew": true,
+        "isFeatured": true,
+        "onSale": false,
+        "color": "Panda",
+        "images": [
+            "https://i.ibb.co.com/BVVZ9rKF/6b521d6d-d7b5-4f9f-a9c0-69767e5542d8.jpg",
+            "https://i.ibb.co.com/gLpgQdJq/6f50da83-17b7-4aa7-9831-ffcf03b9e15d.jpg",
+            "https://i.ibb.co.com/ymB097yf/58def420-780e-40ed-9051-de949c22b49d.jpg",
+            "https://i.ibb.co.com/F40pYhwM/f76c821d-a92e-4c42-a7ea-c8c6387deaed.jpg"
+        ]
+    },
+    {
+        "id": 22,
+        "name": "Adidas Forum Low",
+        "brand": "Adidas",
+        "price": 100,
+        "category": "Casual",
+        "stock": 14,
+        "rating": 4.6,
+        "isNew": false,
+        "isFeatured": false,
+        "onSale": false,
+        "color": "Blue/White",
+        "images": [
+            "https://i.ibb.co.com/q3DBdN9q/d05611ff-0382-4291-ba2e-87f079d6daf6.jpg",
+            "https://i.ibb.co.com/9HznC477/de0a8408-7b60-4d0d-82a3-970c5a25e520.jpg",
+            "https://i.ibb.co.com/zhN1R4PX/ea09b97a-9677-47cf-a76f-0ee22ff8ab83.jpg",
+            "https://i.ibb.co.com/1tQ1x2pv/efeb5813-80e2-42b0-a514-8a30b44e2cc0.jpg"
+        ]
+    },
+    {
+        "id": 23,
+        "name": "Puma Suede Classic",
+        "brand": "Puma",
+        "price": 70,
+        "category": "Casual",
+        "stock": 35,
+        "rating": 4.7,
+        "isNew": false,
+        "isFeatured": false,
+        "onSale": false,
+        "color": "Burgundy",
+        "images": [
+            "https://i.ibb.co.com/QvN5cNR6/88bfcb5f-8dc8-4cbc-b7f1-ed7b5581a3bd.jpg",
+            "https://i.ibb.co.com/N2L51h3H/635cc04d-6559-4f22-8390-6b4e5ecc3ed3.jpg",
+            "https://i.ibb.co.com/pvxt2MR5/09531832-5835-467e-92b4-9dd6c24fde32.jpg",
+            "https://i.ibb.co.com/C3kZx50H/e55bf898-49ea-4a21-b6df-1b04617a0f5d.jpg"
+        ]
+    },
+    {
+        "id": 24,
+        "name": "NB 574 Core",
+        "brand": "New Balance",
+        "price": 75,
+        "oldPrice": 85,
+        "category": "Casual",
+        "stock": 42,
+        "rating": 4.6,
+        "isNew": false,
+        "isFeatured": false,
+        "onSale": true,
+        "color": "Navy",
+        "images": [
+            "https://i.ibb.co.com/qMD95BSc/21b34151-e2a9-4bb1-aafc-f3797ddc0069.webp"
+        ]
+    },
+    {
+        "id": 25,
+        "name": "Vans Sk8-Hi",
+        "brand": "Vans",
+        "price": 75,
+        "category": "Skate",
+        "stock": 25,
+        "rating": 4.7,
+        "isNew": false,
+        "isFeatured": false,
+        "onSale": false,
+        "color": "Navy Blue",
+        "images": [
+            "https://i.ibb.co.com/v4Cy0d2z/755a34a5-5ff3-4c67-a921-ef6e3ead5469.jpg",
+            "https://i.ibb.co.com/0RH1RxSB/a3918117-3983-498a-a82e-7d877900b6d2.jpg",
+            "https://i.ibb.co.com/Q3nXWVJf/d34a12dd-b944-421c-ac49-9523a6a1cb0c.jpg"
+        ]
+    },
+    {
+        "id": 26,
+        "name": "Jordan 11 Jubilee",
+        "brand": "Jordan",
+        "price": 220,
+        "category": "Casual",
+        "stock": 2,
+        "rating": 5.0,
+        "isNew": false,
+        "isFeatured": true,
+        "onSale": false,
+        "color": "Black/Silver",
+        "images": [
+            "https://i.ibb.co.com/NgKzCY0r/8a611a31-49f2-4eaa-a359-8b9a2c0f9276.jpg",
+            "https://i.ibb.co.com/C3R4JQQ3/700990d0-9918-4abf-9618-ba7fae1b8586.jpg"
+        ]
+    },
+    {
+        "id": 27,
+        "name": "Nike Air Force 1",
+        "brand": "Nike",
+        "price": 110,
+        "category": "Casual",
+        "stock": 60,
+        "rating": 4.8,
+        "isNew": false,
+        "isFeatured": true,
+        "onSale": false,
+        "color": "Triple White",
+        "images": [
+            "https://i.ibb.co.com/35Rjth6m/32f05756-842d-46ca-97ab-65f925464113.jpg",
+            "https://i.ibb.co.com/fVzxpc4Z/203c8d9b-6d35-4880-9b97-e03961b2fdf7.jpg",
+            "https://i.ibb.co.com/1YvNBZzr/c65f4575-3035-4de1-9944-22ed5933c20e.jpg",
+            "https://i.ibb.co.com/GQYz0gwT/e32aaf1e-aad1-4220-a3e3-5d79010307e8.jpg"
+        ]
+    },
+    {
+        "id": 28,
+        "name": "Adidas Stan Smith",
+        "brand": "Adidas",
+        "price": 80,
+        "oldPrice": 95,
+        "category": "Casual",
+        "stock": 38,
+        "rating": 4.7,
+        "isNew": false,
+        "isFeatured": false,
+        "onSale": true,
+        "color": "White/Green",
+        "images": [
+            "https://i.ibb.co.com/35qVqSLt/050e5fae-a9cf-4a78-956b-41101dc8fb8e.jpg",
+            "https://i.ibb.co.com/cSjpv2Hg/1264ceae-e267-4ed8-8f11-ea641c675167.jpg",
+            "https://i.ibb.co.com/27RSWHww/f9d35262-2990-402f-a066-2fff2bdbbb55.jpg"
+        ]
+    },
+    {
+        "id": 29,
+        "name": "Reebok Club C 85",
+        "brand": "Reebok",
+        "price": 75,
+        "category": "Casual",
+        "stock": 32,
+        "rating": 4.6,
+        "isNew": false,
+        "isFeatured": false,
+        "onSale": false,
+        "color": "Vintage White",
+        "images": [
+            "https://i.ibb.co.com/WW9kXt8v/15514698-1200-A.jpg",
+            "https://i.ibb.co.com/pBBftxbk/100229840-SLC-e-Com.webp"
+        ]
+    },
+    {
+        "id": 30,
+        "name": "Nike Blazer Mid 77",
+        "brand": "Nike",
+        "price": 105,
+        "category": "Casual",
+        "stock": 15,
+        "rating": 4.7,
+        "isNew": true,
+        "isFeatured": true,
+        "onSale": false,
+        "color": "White/Black",
+        "images": [
+            "https://i.ibb.co.com/GKFw74J/custom-nike-blazer-low-shoes-by-you.avif",
+            "https://i.ibb.co.com/Rk8FKLg0/NIKE-SB-ZOOM-BLAZER-LOW-PRO-GT-1.avif",
+            "https://i.ibb.co.com/23FwdHk1/NIKE-SB-ZOOM-BLAZER-LOW-PRO-GT.avif",
+            "https://i.ibb.co.com/3yn6jF6n/W-BLAZER-LOW-E-NBY.avif"
+        ]
+    },
+    {
+        "id": 31,
+        "name": "Adidas Gazelle",
+        "brand": "Adidas",
+        "price": 100,
+        "category": "Casual",
+        "stock": 19,
+        "rating": 4.6,
+        "isNew": false,
+        "isFeatured": false,
+        "onSale": false,
+        "color": "Pink/White",
+        "images": [
+            "https://i.ibb.co.com/CKsQ5y14/2f759dc8-089b-498f-84b7-f1224b750ac2.jpg",
+            "https://i.ibb.co.com/vF6QHz5/82e9a9cc-2458-47ef-a325-42d2f272eea4.jpg",
+            "https://i.ibb.co.com/kV4bMdXQ/471b2694-38c8-4470-996a-86b33d0a5b5d.jpg",
+            "https://i.ibb.co.com/zTGgSCZK/6387b3f2-b4b5-4031-a4b5-aae42f7557c8.jpg"
+        ]
+    },
+    {
+        "id": 32,
+        "name": "Puma RS-X3",
+        "brand": "Puma",
+        "price": 90,
+        "oldPrice": 110,
+        "category": "Casual",
+        "stock": 12,
+        "rating": 4.5,
+        "isNew": false,
+        "isFeatured": false,
+        "onSale": true,
+        "color": "Puzzle",
+        "images": [
+            "https://i.ibb.co.com/Z11Nr1DW/5022c005-8ce2-4d43-8fa0-1c9e4ee61317.jpg",
+            "https://i.ibb.co.com/PZBhkYbx/ba300c0f-53a7-4ef5-9543-00b39630aa76.jpg"
+        ]
+    },
+    {
+        "id": 33,
+        "name": "New Balance 327",
+        "brand": "New Balance",
+        "price": 100,
+        "category": "Casual",
+        "stock": 10,
+        "rating": 4.8,
+        "isNew": true,
+        "isFeatured": true,
+        "onSale": false,
+        "color": "Moonbeam",
+        "images": [
+            "https://i.ibb.co.com/svNJ1bKw/2e4504ea-35a2-4b38-9443-f45744689cb6.webp",
+            "https://i.ibb.co.com/dstBZYhf/76372fe7-5c8f-4b42-bf3c-2ac6cca23dcf.webp",
+            "https://i.ibb.co.com/MykYCxxB/a42f6cd6-c37d-471d-bac4-f5dff3bc2869.webp",
+            "https://i.ibb.co.com/7xHCthb7/c44d0652-a254-4a76-848f-b4aab4172c66.webp"
+        ]
+    },
+    {
+        "id": 34,
+        "name": "Nike React Vision",
+        "brand": "Nike",
+        "price": 140,
+        "category": "Running",
+        "stock": 13,
+        "rating": 4.6,
+        "isNew": false,
+        "isFeatured": false,
+        "onSale": false,
+        "color": "Desert Oat",
+        "images": [
+            "https://i.ibb.co.com/W4gD8Xnf/NIKE-REACT-VISION.avif"
+        ]
+    },
+    {
+        "id": 35,
+        "name": "Adidas Terrex Swift",
+        "brand": "Adidas",
+        "price": 150,
+        "category": "Hiking",
+        "stock": 8,
+        "rating": 4.7,
+        "isNew": false,
+        "isFeatured": false,
+        "onSale": false,
+        "color": "Core Black",
+        "images": [
+            "https://i.ibb.co.com/SDJHzqYQ/0de71005-3564-404a-8b07-9d415c800e7f.jpg",
+            "https://i.ibb.co.com/j9ysxRJr/0515645e-ed78-4665-b703-6eef821d1179.jpg",
+            "https://i.ibb.co.com/sxDPcJf/e4ba133d-d869-4aef-bf7b-6ea1f582a5be.jpg",
+            "https://i.ibb.co.com/pBybDWgc/e630836b-4054-40c1-80cf-a87cf4019c7e.jpg"
+        ]
+    },
+    {
+        "id": 36,
+        "name": "Salomon Speedcross 5",
+        "brand": "Salomon",
+        "price": 130,
+        "category": "Hiking",
+        "stock": 15,
+        "rating": 4.8,
+        "isNew": true,
+        "isFeatured": true,
+        "onSale": false,
+        "color": "Grape Leaf",
+        "images": [
+            "https://i.ibb.co.com/svt8Ygrw/25cc3b6f-da2f-48dc-b053-02e8603890a5.jpg",
+            "https://i.ibb.co.com/NgQzpnZ7/f9b617f1-2ec8-4ea4-85be-2b8744252840.jpg"
+        ]
+    },
+    {
+        "id": 37,
+        "name": "Timberland 6-Inch Boot",
+        "brand": "Timberland",
+        "price": 190,
+        "category": "Hiking",
+        "stock": 20,
+        "rating": 4.9,
+        "isNew": false,
+        "isFeatured": true,
+        "onSale": false,
+        "color": "Wheat",
+        "images": [
+            "https://i.ibb.co.com/4nStk344/2bdb6da1-73c3-43eb-817b-b37d02af7370.jpg",
+            "https://i.ibb.co.com/r2w7pqkL/5d332b08-58d8-40b5-ba2a-b7629aab69ac.jpg",
+            "https://i.ibb.co.com/KjkcCcph/e5b1690d-aac2-418c-9e64-15fdcc7764f7.jpg"
+        ]
+    },
+    {
+        "id": 38,
+        "name": "Dr. Martens 1460",
+        "brand": "Dr. Martens",
+        "price": 170,
+        "category": "Casual",
+        "stock": 25,
+        "rating": 4.7,
+        "isNew": false,
+        "isFeatured": false,
+        "onSale": false,
+        "color": "Cherry Red",
+        "images": [
+            "https://i.ibb.co.com/2YkwR4sv/15ed88a2-f76d-469d-8be7-f02be1d630d7.jpg",
+            "https://i.ibb.co.com/Nd1T7QJT/74f1c125-089b-47e5-8e4f-579e47463af2.jpg",
+            "https://i.ibb.co.com/SD9W07LZ/a8b555d7-8835-4816-ac67-4a2d5343166e.jpg",
+            "https://i.ibb.co.com/vCgmdyjb/d7c51ea5-16c0-48f7-a036-73887beeb271.jpg"
+        ]
+    },
+    {
+        "id": 39,
+        "name": "Nike LeBron 19",
+        "brand": "Nike",
+        "price": 160,
+        "oldPrice": 200,
+        "category": "Basketball",
+        "stock": 6,
+        "rating": 4.8,
+        "isNew": false,
+        "isFeatured": false,
+        "onSale": true,
+        "color": "Space Jam",
+        "images": [
+            "https://i.ibb.co.com/ccVyBKgw/1a569c52-b6fd-4783-8988-e4e6853a9428.jpg",
+            "https://i.ibb.co.com/r2dbr6Sg/9a8214bb-ecd6-4f5b-b493-2a4cf2b4b71e.jpg",
+            "https://i.ibb.co.com/2Y0Rq3PG/ca18ca54-c61b-4df3-8c6d-a5c1c9284780.jpg",
+            "https://i.ibb.co.com/HLHsFY2v/ee4fb625-e1d4-4ecb-b925-9a6d5723e550.jpg"
+        ]
+    },
+    {
+        "id": 40,
+        "name": "Adidas Dame 8",
+        "brand": "Adidas",
+        "price": 120,
+        "category": "Basketball",
+        "stock": 10,
+        "rating": 4.6,
+        "isNew": false,
+        "isFeatured": false,
+        "onSale": false,
+        "color": "Purple",
+        "images": [
+            "https://i.ibb.co.com/dJmyXt2w/050eb498-0e65-474f-8a44-c62702b71d48.jpg",
+            "https://i.ibb.co.com/fzQJs8yq/64b63072-fe4d-404d-a607-7ed3d029d518.jpg",
+            "https://i.ibb.co.com/RThdnL7P/da367581-d881-47ee-87f5-03a34bdd31a7.jpg",
+            "https://i.ibb.co.com/FqWBqvrV/dca92cda-1827-4ed9-ab45-808b194ebbbe.jpg"
+        ]
+    }
+]
