@@ -162,18 +162,20 @@ const HeroSlider = () => {
                                                     className="absolute object-contain z-20 w-[85%] md:w-[105%] max-w-[700px]"
                                                 />
 
-                                                {/* Price Badge - Smooth fade and scale */}
+                                                {/* Price Badge - Professional Spring Animation */}
                                                 <motion.div
                                                     key={`price-${slide.id}`}
-                                                    initial={{ opacity: 0, scale: 0.5, y: 20 }}
-                                                    animate={{ opacity: 1, scale: 1, y: 0 }}
-                                                    exit={{ opacity: 0, scale: 0.8 }}
+                                                    initial={{ opacity: 0, scale: 0.3, rotate: -20, x: "-50%", y: 40 }}
+                                                    animate={{ opacity: 1, scale: 1, rotate: 0, x: "-50%", y: 0 }}
+                                                    exit={{ opacity: 0, scale: 0.5, rotate: 10, x: "-50%", y: 20, transition: { duration: 0.3 } }}
                                                     transition={{
-                                                        duration: 0.8,
-                                                        ease: "easeOut",
-                                                        delay: 0.6
+                                                        type: "spring",
+                                                        stiffness: 260,
+                                                        damping: 20,
+                                                        delay: 0.7
                                                     }}
-                                                    className={`absolute z-30 ${slide.badgeColor} text-white font-bold text-xl sm:text-2xl md:text-3xl rounded-full w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24 flex items-center justify-center left-[55%] md:left-[60%] bottom-[20%] md:bottom-[25%] shadow-xl transform -translate-x-1/2`}
+                                                    whileHover={{ scale: 1.15, rotate: 5, transition: { duration: 0.2 } }}
+                                                    className={`absolute z-30 ${slide.badgeColor} text-white font-bold text-xl sm:text-2xl md:text-3xl rounded-full w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24 flex items-center justify-center left-[55%] md:left-[60%] bottom-[20%] md:bottom-[25%] shadow-2xl cursor-pointer ring-4 ring-white/20`}
                                                 >
                                                     {slide.price}
                                                 </motion.div>
