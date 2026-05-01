@@ -2,9 +2,11 @@ import React, { useState } from 'react';
 import { NavLink, Link } from 'react-router';
 import { motion, AnimatePresence } from 'framer-motion';
 import { FiMenu, FiX, FiHeart, FiShoppingBag } from 'react-icons/fi';
+import { useShop } from '../context/ShopContext';
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
+    const { cartCount, wishlistCount } = useShop();
 
     const toggleMenu = () => {
         setIsOpen(!isOpen);
@@ -12,7 +14,7 @@ const Navbar = () => {
 
     const navLinks = [
         { title: 'Home', path: '/' },
-        { title: 'Pages', path: '/pages' },
+        { title: 'About', path: '/about' },
         { title: 'Shop', path: '/shop' },
         { title: 'Blog', path: '/blog' },
         { title: 'Gallery', path: '/gallery' },
@@ -51,13 +53,13 @@ const Navbar = () => {
                             <button className="text-gray-700 hover:text-red-500 transition-colors relative">
                                 <FiHeart className="h-6 w-6" />
                                 <span className="absolute -top-1 -right-2 bg-gray-200 text-gray-700 text-[10px] font-bold px-1.5 py-0.5 rounded-full">
-                                    0
+                                    {wishlistCount}
                                 </span>
                             </button>
                             <button className="text-gray-700 hover:text-red-500 transition-colors relative">
                                 <FiShoppingBag className="h-6 w-6" />
                                 <span className="absolute -top-1 -right-2 bg-red-500 text-white text-[10px] font-bold px-1.5 py-0.5 rounded-full">
-                                    0
+                                    {cartCount}
                                 </span>
                             </button>
                         </div>
@@ -117,7 +119,7 @@ const Navbar = () => {
                                     <button className="flex flex-col items-center gap-1 text-gray-700 hover:text-red-500">
                                         <div className="relative">
                                             <FiHeart className="h-6 w-6" />
-                                            <span className="absolute -top-1 -right-2 bg-gray-200 text-gray-700 text-[10px] font-bold px-1.5 py-0.5 rounded-full">0</span>
+                                            <span className="absolute -top-1 -right-2 bg-gray-200 text-gray-700 text-[10px] font-bold px-1.5 py-0.5 rounded-full">{wishlistCount}</span>
                                         </div>
                                         <span className="text-xs font-medium">Wishlist</span>
                                     </button>
@@ -125,7 +127,7 @@ const Navbar = () => {
                                     <button className="flex flex-col items-center gap-1 text-gray-700 hover:text-red-500">
                                         <div className="relative">
                                             <FiShoppingBag className="h-6 w-6" />
-                                            <span className="absolute -top-1 -right-2 bg-red-500 text-white text-[10px] font-bold px-1.5 py-0.5 rounded-full">0</span>
+                                            <span className="absolute -top-1 -right-2 bg-red-500 text-white text-[10px] font-bold px-1.5 py-0.5 rounded-full">{cartCount}</span>
                                         </div>
                                         <span className="text-xs font-medium">Cart</span>
                                     </button>
