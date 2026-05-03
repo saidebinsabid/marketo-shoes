@@ -70,7 +70,7 @@ const ProductCard = ({ product, viewMode }) => {
                         </div>
                     </div>
                     <div className="flex gap-4 mt-4">
-                        <button onClick={addToCart} className="bg-slate-900 text-white py-2.5 px-6 rounded-md font-bold flex items-center justify-center gap-2 hover:bg-red-500 transition-all text-sm">
+                        <button onClick={() => addToCart(product)} className="bg-slate-900 text-white py-2.5 px-6 rounded-md font-bold flex items-center justify-center gap-2 hover:bg-red-500 transition-all text-sm">
                             <FiShoppingBag className="w-4 h-4" /> Add to Cart
                         </button>
                     </div>
@@ -109,7 +109,7 @@ const ProductCard = ({ product, viewMode }) => {
                             initial={{ opacity: 0, x: 10 }}
                             animate={{ opacity: 1, x: 0 }}
                             exit={{ opacity: 0, x: 10 }}
-                            onClick={(e) => { e.stopPropagation(); addToWishlist(); }}
+                            onClick={(e) => { e.stopPropagation(); addToWishlist(product); }}
                             className="absolute top-4 right-4 z-30 bg-white p-2.5 rounded-full text-slate-900 hover:bg-red-500 hover:text-white shadow-sm transition-colors"
                         >
                             <FiHeart className="w-4 h-4" />
@@ -167,7 +167,7 @@ const ProductCard = ({ product, viewMode }) => {
 
                 {/* Add to Cart */}
                 <button 
-                    onClick={(e) => { e.stopPropagation(); addToCart(); }}
+                    onClick={(e) => { e.stopPropagation(); addToCart(product); }}
                     className="mt-4 w-[85%] bg-slate-900 text-white py-2.5 rounded-sm font-bold flex items-center justify-center gap-2 hover:bg-red-600 transition-all text-xs uppercase tracking-wider"
                 >
                     <FiShoppingBag className="w-4 h-4" />

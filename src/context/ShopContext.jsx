@@ -19,8 +19,13 @@ export const ShopProvider = ({ children }) => {
     const productsPerPage = 12;
     
     // Cart & Wishlist
-    const [cartCount, setCartCount] = useState(0);
-    const [wishlistCount, setWishlistCount] = useState(0);
+    const [cartItems, setCartItems] = useState([]);
+    const [wishlistItems, setWishlistItems] = useState([]);
+    const [isCartOpen, setIsCartOpen] = useState(false);
+    const [isWishlistOpen, setIsWishlistOpen] = useState(false);
+
+    const cartCount = cartItems.length;
+    const wishlistCount = wishlistItems.length;
 
     // Fetch products
     useEffect(() => {
@@ -57,8 +62,32 @@ export const ShopProvider = ({ children }) => {
         setCurrentPage(1); // Reset to first page when filtering
     };
 
-    const addToCart = () => setCartCount(prev => prev + 1);
-    const addToWishlist = () => setWishlistCount(prev => prev + 1);
+    const addToCart = (product) => {
+        setCartItems(prev => {
+            const existing = prev.find(item => item.id === product.id);
+            if (existing) {
+                return prev.map(item => item.id === product.id ? { ...item, quantity: item.quantity + 1 } : item);
+            }
+            return [...prev, { ...product, quantity: 1 }];
+        });
+    };
+
+    const removeFromCart = (productId) => {
+        setCartItems(prev => prev.filter(item => item.id !== productId));
+    };
+
+    const addToWishlist = (product) => {
+        setWishlistItems(prev => {
+            if (!prev.find(item => item.id === product.id)) {
+                return [...prev, product];
+            }
+            return prev;
+        });
+    };
+
+    const removeFromWishlist = (productId) => {
+        setWishlistItems(prev => prev.filter(item => item.id !== productId));
+    };
 
     const value = {
         products,
@@ -75,8 +104,16 @@ export const ShopProvider = ({ children }) => {
         productsPerPage,
         cartCount,
         wishlistCount,
+        cartItems,
+        wishlistItems,
+        isCartOpen,
+        setIsCartOpen,
+        isWishlistOpen,
+        setIsWishlistOpen,
         addToCart,
+        removeFromCart,
         addToWishlist,
+        removeFromWishlist,
         applyFilters
     };
 
