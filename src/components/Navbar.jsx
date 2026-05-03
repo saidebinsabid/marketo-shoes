@@ -5,6 +5,7 @@ import { FiMenu, FiX, FiHeart, FiShoppingBag } from "react-icons/fi";
 import { useShop } from "../context/ShopContext";
 import WishlistDropdown from "./WishlistDropdown";
 import CartDropdown from "./CartDropdown";
+import logoImg from "../assets/icons.png";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -37,7 +38,7 @@ const Navbar = () => {
           <div className="shrink-0 flex items-center gap-2">
             <Link to="/" className="flex items-center gap-2">
               <img
-                src="/src/assets/icons.png"
+                src={logoImg}
                 alt="Marketo Logo"
                 className="h-8 w-auto object-contain"
               />
