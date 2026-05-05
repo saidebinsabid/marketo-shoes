@@ -62,13 +62,13 @@ export const ShopProvider = ({ children }) => {
         setCurrentPage(1); // Reset to first page when filtering
     };
 
-    const addToCart = (product) => {
+    const addToCart = (product, quantityToAdd = 1) => {
         setCartItems(prev => {
             const existing = prev.find(item => item.id === product.id);
             if (existing) {
-                return prev.map(item => item.id === product.id ? { ...item, quantity: item.quantity + 1 } : item);
+                return prev.map(item => item.id === product.id ? { ...item, quantity: item.quantity + quantityToAdd } : item);
             }
-            return [...prev, { ...product, quantity: 1 }];
+            return [...prev, { ...product, quantity: quantityToAdd }];
         });
     };
 

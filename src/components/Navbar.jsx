@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { NavLink, Link } from "react-router";
 import { motion, AnimatePresence } from "framer-motion";
-import { FiMenu, FiX, FiHeart, FiShoppingBag } from "react-icons/fi";
+import { FiMenu, FiX, FiHeart, FiShoppingBag, FiUser } from "react-icons/fi";
 import { useShop } from "../context/ShopContext";
 import WishlistDropdown from "./WishlistDropdown";
 import CartDropdown from "./CartDropdown";
@@ -26,8 +26,7 @@ const Navbar = () => {
     { title: "Home", path: "/" },
     { title: "About", path: "/about" },
     { title: "Shop", path: "/shop" },
-    { title: "Blog", path: "/blog" },
-    { title: "Gallery", path: "/gallery" },
+    { title: "Contact", path: "/contact" },
   ];
 
   return (
@@ -108,12 +107,13 @@ const Navbar = () => {
               </div>
 
             </div>
-            {/* Future Login/Signup Route */}
+            {/* User Account / Login Route */}
             <Link
               to="/signup"
-              className="bg-slate-900 text-white px-6 py-2.5 rounded hover:bg-black transition-colors font-medium shadow-sm hover:shadow-md"
+              className="text-gray-700 hover:text-red-500 transition-colors focus:outline-none flex items-center justify-center bg-gray-50 hover:bg-red-50 p-2.5 rounded-full"
+              title="Account"
             >
-              Get Started
+              <FiUser className="h-5 w-5" />
             </Link>
           </div>
 

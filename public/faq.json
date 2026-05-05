@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "question": "What is your return policy?",
+    "answer": "We accept returns within 30 days of purchase for a full refund or exchange, provided the shoes are unworn and in their original packaging."
+  },
+  {
+    "id": 2,
+    "question": "Do you offer international shipping?",
+    "answer": "Yes, we ship globally! International shipping times vary between 7-14 business days depending on the destination."
+  },
+  {
+    "id": 3,
+    "question": "How do I track my order?",
+    "answer": "Once your order is shipped, you will receive a confirmation email containing a tracking link so you can monitor your delivery in real-time."
+  },
+  {
+    "id": 4,
+    "question": "Are your shoes true to size?",
+    "answer": "Most of our shoes fit true to size. However, we recommend checking the specific sizing guide available on each product page for the most accurate fit."
+  },
+  {
+    "id": 5,
+    "question": "What payment methods do you accept?",
+    "answer": "We accept all major credit cards (Visa, MasterCard, Amex), PayPal, Apple Pay, and Google Pay for a seamless checkout experience."
+  }
+]
